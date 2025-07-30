@@ -4,6 +4,8 @@ import { Howl } from "howler";
 import CardInvitation from "./components/CardInvitation";
 
 const App = () => {
+  const [openInvitation, setOpenInvitation] = useState(false);
+
   useEffect(() => {
     const sound = new Howl({
       src: ["/audio/sound-background.mp3"],
@@ -17,8 +19,6 @@ const App = () => {
       sound.stop();
     };
   }, []);
-
-  const [openInvitation, setOpenInvitation] = useState(false);
 
   return (
     <>
