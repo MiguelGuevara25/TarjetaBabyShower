@@ -9,24 +9,24 @@ const Invitation = () => {
       <div className="space-y-6">
         <img
           className="absolute w-20 top-[2%] right-[1.5%]"
-          src="/Abejita.png"
+          src="/images/Abejita.png"
           alt="Logo"
         />
         <img
           className="absolute w-20 top-[29%] left-[1.5%]"
-          src="/Abejita2.png"
+          src="/images/Abejita2.png"
           alt="Logo"
         />
 
         <img
           className="absolute w-8 top-[65%] left-[48%]"
-          src="/AbejitaParada.png"
+          src="/images/AbejitaParada.png"
           alt="Logo"
         />
 
         <img
           className="absolute w-20 bottom-[12%] right-[12%]"
-          src="/Abejita.png"
+          src="/images/Abejita.png"
           alt="Logo"
         />
 
@@ -37,7 +37,7 @@ const Invitation = () => {
         <div className="flex items-center">
           <img
             className="w-1/2"
-            src="/WinniePoohInicio.png"
+            src="/images/WinniePoohInicio.png"
             alt="Baby Shower"
           />
 
@@ -89,7 +89,7 @@ const Invitation = () => {
 
         <div className="flex">
           <div className="flex flex-col gap-2 basis-1/2">
-            <img src="/TiggerInicio.png" alt="Baby Shower" />
+            <img src="/images/TiggerInicio.png" alt="Baby Shower" />
             <div className="flex flex-col items-center gap-1">
               <p
                 className="text-primary text-xl"
@@ -128,13 +128,13 @@ const Invitation = () => {
                 />
               </div>
             </div>
-            <img src="/PiggletInicio.png" alt="Baby Shower" />
+            <img src="/images/PiggletInicio.png" alt="Baby Shower" />
           </div>
         </div>
 
         <div className="flex">
           <div className="basis-1/2">
-            <img src="/IgorInicio.png" alt="Baby Shower" />
+            <img src="/images/IgorInicio.png" alt="Baby Shower" />
           </div>
 
           <div className="basis-1/2 flex flex-col gap-3 items-center justify-center">

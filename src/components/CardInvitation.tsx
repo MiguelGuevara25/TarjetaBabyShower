@@ -8,7 +8,7 @@ const CardInvitation = ({ setOpenInvitation }: CardInvitationProps) => {
   };
 
   return (
-    <div className="bg-[url(/fondoMiel.png)] bg-cover bg-no-repeat h-screen flex flex-col items-center justify-center gap-10">
+    <div className="bg-[url(/fondoMiel.png)] bg-cover bg-no-repeat min-h-screen flex flex-col items-center justify-center gap-10">
       <img src="DisenoPortadaSinBoton.png" alt="Portada Baby Shower" />
 
       <button
