@@ -6,6 +6,29 @@ import Wsp from "./icons/Wsp";
 const Invitation = () => {
   return (
     <div className="space-y-6">
+      <img
+        className="absolute w-20 top-[2%] right-[1.5%]"
+        src="/Abejita.png"
+        alt="Logo"
+      />
+      <img
+        className="absolute w-20 top-[29%] left-[1.5%]"
+        src="/Abejita2.png"
+        alt="Logo"
+      />
+
+      <img
+        className="absolute w-8 top-[65%] left-[48%]"
+        src="/AbejitaParada.png"
+        alt="Logo"
+      />
+
+      <img
+        className="absolute w-20 bottom-[12%] right-[12%]"
+        src="/Abejita.png"
+        alt="Logo"
+      />
+
       <p className="uppercase w-60 text-center mx-auto text-secondary font-semibold">
         ¡Pronto seremos tres!
       </p>
@@ -33,11 +56,11 @@ const Invitation = () => {
       </p>
 
       <p className="uppercase text__invitation text-secondary">
-        ¡Te invitamos a celebrar con nosotros este día lleno de alegría. Tu
+        Te invitamos a celebrar con nosotros este día lleno de alegría. !Tu
         presencia lo hará aún más especial!
       </p>
 
-      <div className="flex justify-center text-secondary items-center">
+      <div className="flex justify-center text-secondary items-center mb-10">
         <p className="uppercase text-center">
           <span className="font-semibold">Domingo</span>
           <br />
