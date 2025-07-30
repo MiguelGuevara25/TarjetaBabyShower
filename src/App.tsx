@@ -1,6 +1,7 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Invitation from "./components/Invitation";
 import { Howl } from "howler";
+import CardInvitation from "./components/CardInvitation";
 
 const App = () => {
   useEffect(() => {
@@ -17,10 +18,15 @@ const App = () => {
     };
   }, []);
 
+  const [openInvitation, setOpenInvitation] = useState(false);
+
   return (
-    <section className="w-11/12 mx-auto my-5 relative">
-      <Invitation />
-    </section>
+    <>
+      {!openInvitation && (
+        <CardInvitation setOpenInvitation={setOpenInvitation} />
+      )}
+      {openInvitation && <Invitation />}
+    </>
   );
 };
 
