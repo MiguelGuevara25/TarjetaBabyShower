@@ -1,10 +1,11 @@
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 import Pin from "./icons/Pin";
+import Wsp from "./icons/Wsp";
 
 const Invitation = () => {
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       <p className="uppercase w-60 text-center mx-auto text-secondary">
         ¡La dulce espera está por terminar!
       </p>
@@ -28,19 +29,19 @@ const Invitation = () => {
 
       <div className="flex justify-center text-secondary items-center">
         <p className="uppercase text-center">
-          Sábado
+          Domingo
           <br />
-          3:00 PM
+          4:30 PM
         </p>
 
         <hr className="w-10 rotate-90 text-primary" />
 
-        <p className="text-primary text-5xl font-bold text-pretty pb-1.5">19</p>
+        <p className="text-primary text-5xl font-bold text-pretty pb-1.5">31</p>
 
         <hr className="w-10 rotate-90 text-primary" />
 
         <p className="uppercase text-center">
-          Julio
+          Agosto
           <br />
           2025
         </p>
@@ -54,7 +55,7 @@ const Invitation = () => {
             <p className="text-secondary uppercase text-center text-pretty">
               La Minka Mz.E Lt.35 Ate
             </p>
-            <button className="bg-primary text-white rounded-full flex items-center py-1.5 px-3">
+            <button className="bg-primary text-white rounded-full flex items-center py-1.5 px-3 gap-2">
               <Pin />
               <span>Ver Ubicación</span>
             </button>
@@ -66,7 +67,7 @@ const Invitation = () => {
             <p className="text-primary text-xl">¿Cuánto falta?</p>
             <div className="w-max">
               <FlipClockCountdown
-                to={new Date().getTime() + 24 * 3600 * 1000 + 5000}
+                to={new Date("2025-08-31T16:30:00").getTime()}
                 showLabels={false}
                 showSeparators={false}
                 className="flip-clock"
@@ -74,6 +75,30 @@ const Invitation = () => {
             </div>
           </div>
           <img src="/PiggletInicio.png" alt="Baby Shower" />
+        </div>
+      </div>
+
+      <div className="flex">
+        <div className="basis-1/2">
+          <img src="/IgorInicio.png" alt="Baby Shower" />
+        </div>
+
+        <div className="basis-1/2 flex flex-col gap-3 items-center">
+          <a
+            href="https://maps.app.goo.gl/sEwSqnsK45zLCMqg7"
+            target="_blank"
+            className="bg-primary text-white rounded-full flex items-center py-1.5 px-3 w-max gap-2 cursor-pointer"
+          >
+            <Wsp />
+            <span>Confirmar a Gelen</span>
+          </a>
+
+          <button className="bg-primary text-white rounded-full flex items-center py-1.5 px-3 w-max gap-2">
+            <Wsp />
+            <span>Confirmar a Mario</span>
+          </button>
+
+          <p className="text-primary text-xl">¡Te esperamos!</p>
         </div>
       </div>
     </div>
