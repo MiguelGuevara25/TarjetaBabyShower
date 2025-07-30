@@ -49,15 +49,15 @@ const Invitation = () => {
         </p>
       </div>
 
-      <div className="flex">
+      <div className="flex justify-between">
         <img
-          className="w-1/3 border"
+          className="w-1/3"
           src="/TiggerInicio.png"
           alt="Baby Shower"
         />
         <div className="text-center">
           <p className="text-primary text-2xl">¿Cuánto falta?</p>
-          <div className="border w-max">
+          <div className="w-max">
             <FlipClockCountdown
               to={new Date().getTime() + 24 * 3600 * 1000 + 5000}
               labels={["Días", "Horas", "Minutos", "Segundos"]}
