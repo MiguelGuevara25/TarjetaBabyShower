@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
+import CardInvitation from "./components/CardInvitation";
 import Invitation from "./components/Invitation";
 import { Howl } from "howler";
-import CardInvitation from "./components/CardInvitation";
 
 const App = () => {
   const [openInvitation, setOpenInvitation] = useState(false);
