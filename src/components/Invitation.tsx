@@ -48,21 +48,25 @@ const Invitation = () => {
       </div>
 
       <div className="flex">
-        <div className="flex flex-col gap-2 w-1/2">
+        <div className="flex flex-col gap-2 basis-1/2">
           <img src="/TiggerInicio.png" alt="Baby Shower" />
           <div className="flex flex-col items-center gap-1">
             <p className="text-primary text-xl">Dirección:</p>
             <p className="text-secondary uppercase text-center text-pretty">
               La Minka Mz.E Lt.35 Ate
             </p>
-            <button className="bg-primary text-white rounded-full flex items-center py-1.5 px-3 gap-2">
+            <a
+              href="https://maps.app.goo.gl/sEwSqnsK45zLCMqg7"
+              target="_blank"
+              className="bg-primary text-white rounded-full flex items-center py-1.5 px-3 gap-2"
+            >
               <Pin />
               <span>Ver Ubicación</span>
-            </button>
+            </a>
           </div>
         </div>
 
-        <div className="flex flex-col gap-10 w-1/2">
+        <div className="flex flex-col gap-10 basis-1/2">
           <div className="text-center space-y-2">
             <p className="text-primary text-xl">¿Cuánto falta?</p>
             <div className="w-max">
@@ -85,7 +89,7 @@ const Invitation = () => {
 
         <div className="basis-1/2 flex flex-col gap-3 items-center">
           <a
-            href="https://maps.app.goo.gl/sEwSqnsK45zLCMqg7"
+            href="https://wa.me/51912345678?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20su%20Baby%20Shower.%20Nos%20vemos%20el%2031%20de%20Agosto.%20%F0%9F%A7%B8%F0%9F%8D%AF%F0%9F%92%99"
             target="_blank"
             className="bg-primary text-white rounded-full flex items-center py-1.5 px-3 w-max gap-2 cursor-pointer"
           >
