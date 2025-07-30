@@ -1,5 +1,6 @@
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 import "@leenguyen/react-flip-clock-countdown/dist/index.css";
+import Pin from "./icons/Pin";
 
 const Invitation = () => {
   return (
@@ -9,16 +10,12 @@ const Invitation = () => {
       </p>
 
       <div className="flex items-center gap-4">
-        <img
-          className="border w-1/2"
-          src="/WinniePoohInicio.png"
-          alt="Baby Shower"
-        />
+        <img className="w-1/2" src="/WinniePoohInicio.png" alt="Baby Shower" />
 
         <h2 className="text-5xl text-center text-primary">Baby shower</h2>
       </div>
 
-      <p className="uppercase text__invitation text-secondary">
+      <p className="uppercase text__invitation text-pretty text-secondary">
         Un nuevo integrante está por llegar a esta familia con amor e ilusión,
         esperamos se llegada. Gracias por ser parte de esta alegría
       </p>
@@ -49,23 +46,34 @@ const Invitation = () => {
         </p>
       </div>
 
-      <div className="flex justify-between">
-        <img className="w-[45%]" src="/TiggerInicio.png" alt="Baby Shower" />
-        <div className="text-center">
-          <p className="text-primary text-2xl">¿Cuánto falta?</p>
-          <div className="w-max">
-            <FlipClockCountdown
-              to={new Date().getTime() + 24 * 3600 * 1000 + 5000}
-              labels={["Días", "Horas", "Minutos", "Segundos"]}
-              labelStyle={{
-                fontSize: 10,
-                fontWeight: 500,
-                textTransform: "uppercase",
-              }}
-              showSeparators={false}
-              className="flip-clock"
-            />
+      <div className="flex">
+        <div className="flex flex-col gap-2 w-1/2">
+          <img src="/TiggerInicio.png" alt="Baby Shower" />
+          <div className="flex flex-col items-center gap-1">
+            <p className="text-primary text-xl">Dirección:</p>
+            <p className="text-secondary uppercase text-center text-pretty">
+              La Minka Mz.E Lt.35 Ate
+            </p>
+            <button className="bg-primary text-white rounded-full flex items-center py-1.5 px-3">
+              <Pin />
+              <span>Ver Ubicación</span>
+            </button>
           </div>
+        </div>
+
+        <div className="flex flex-col gap-10 w-1/2">
+          <div className="text-center space-y-2">
+            <p className="text-primary text-xl">¿Cuánto falta?</p>
+            <div className="w-max">
+              <FlipClockCountdown
+                to={new Date().getTime() + 24 * 3600 * 1000 + 5000}
+                showLabels={false}
+                showSeparators={false}
+                className="flip-clock"
+              />
+            </div>
+          </div>
+          <img src="/PiggletInicio.png" alt="Baby Shower" />
         </div>
       </div>
     </div>
