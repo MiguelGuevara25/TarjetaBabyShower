@@ -1,11 +1,18 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "MiFuente";
+  src: url("/fonts/Magnolia Script.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .text__invitation {
   @apply mx-auto text-center w-[90%];
 }
 
 @theme {
-  --color-primary: #7097d3;
+  --color-primary: #6298e2;
   --color-secondary: #635740;
 }
 
@@ -19,8 +26,8 @@
   --fcc-digit-font-size: 23px; /* font size of digit */
   --fcc-digit-color: white; /* color of digit */
   --fcc-label-font-size: 10px; /* font size of label */
-  --fcc-label-color: #ffffff; /* color of label */
-  --fcc-background: #7097d3; /* background of digit card */
+  --fcc-label-color: #635740; /* color of label */
+  --fcc-background: #6298e2; /* background of digit card */
   --fcc-divider-color: white; /* color of divider */
   --fcc-divider-height: 0px; /* height of divider */
   --fcc-separator-size: 0px; /* size of colon */
