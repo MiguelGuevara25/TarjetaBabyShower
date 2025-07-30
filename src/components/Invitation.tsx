@@ -50,11 +50,7 @@ const Invitation = () => {
       </div>
 
       <div className="flex justify-between">
-        <img
-          className="w-1/3"
-          src="/TiggerInicio.png"
-          alt="Baby Shower"
-        />
+        <img className="w-[45%]" src="/TiggerInicio.png" alt="Baby Shower" />
         <div className="text-center">
           <p className="text-primary text-2xl">¿Cuánto falta?</p>
           <div className="w-max">
