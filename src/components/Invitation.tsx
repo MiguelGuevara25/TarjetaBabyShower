@@ -8,7 +8,7 @@ const Invitation = () => {
     <section className="w-11/12 mx-auto my-5 relative">
       <div className="space-y-6">
         <img
-          className="absolute w-20 top-[2%] right-[1.5%]"
+          className="absolute w-[30%] top-[4%] right-[1.5%]"
           src="/images/Abejita.png"
           alt="Logo"
         />
@@ -30,22 +30,33 @@ const Invitation = () => {
           alt="Logo"
         />
 
+        <img
+          className="absolute w-2/5 top-[25%] -right-[20%]"
+          src="/images/panal.png"
+          alt="Logo"
+        />
+
+        <img
+          className="absolute w-22/100 bottom-[11%] right-[35%]"
+          src="/images/panal.png"
+          alt="Logo"
+        />
+
         <p className="uppercase w-60 text-center mx-auto text-secondary font-semibold">
-          ¡Pronto seremos tres!
+          ¡La dulce espera está por terminar!
         </p>
 
-        <div className="flex items-center">
-          <img
-            className="w-1/2"
-            src="/images/WinniePoohInicio.png"
-            alt="Baby Shower"
-          />
+        <div className="flex items-center justify-between">
+          <div className="basis-1/2">
+            <img src="/images/WinniePoohInicio.png" alt="Baby Shower" />
+          </div>
 
           <h2
-            className="text-5xl text-center text-primary"
+            className="text-5xl text-left flex flex-col gap-1 text-primary basis-1/2"
             style={{ fontFamily: "MiFuente" }}
           >
-            Baby shower
+            <span className="text-2xl">My</span>
+            <span>Baby Shower</span>
           </h2>
         </div>
 
@@ -54,36 +65,39 @@ const Invitation = () => {
         </p>
 
         <p
-          className="text__invitation text-primary text-3xl"
+          className="text__invitation text-primary text-4xl"
           style={{ fontFamily: "MiFuente" }}
         >
-          Mario & Gelen
+          Gael Adriel
         </p>
 
         <p className="uppercase text__invitation text-secondary">
-          Te invitamos a celebrar con nosotros este día lleno de alegría. !Tu
-          presencia lo hará aún más especial!
+          Mis papis Mario y Gelen te invitan a celebrar con nosotros este día
+          tan especial por mi pronta llegada.
+        </p>
+
+        <p className="uppercase text__invitation text-secondary">
+          Ha realizarse el:
         </p>
 
         <div className="flex justify-center text-secondary items-center mb-10">
           <p className="uppercase text-center">
             <span className="font-semibold">Domingo</span>
-            <br />
-            4:30 PM
           </p>
 
           <hr className="w-10 rotate-90 text-primary" />
 
-          <p className="text-primary text-5xl font-bold text-pretty pb-1.5">
-            31
-          </p>
+          <div className="text-primary text-5xl font-bold flex flex-col items-center">
+            <span>31</span>
+            <span className="text-secondary uppercase text-base font-normal">
+              Agosto
+            </span>
+          </div>
 
           <hr className="w-10 rotate-90 text-primary" />
 
           <p className="uppercase text-center">
-            <span className="font-semibold">Agosto</span>
-            <br />
-            2025
+            <span className="font-semibold">4:30 PM</span>
           </p>
         </div>
 
