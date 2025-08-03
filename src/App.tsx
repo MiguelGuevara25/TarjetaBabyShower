@@ -6,27 +6,27 @@ import { Howl } from "howler";
 const App = () => {
   const [openInvitation, setOpenInvitation] = useState(false);
 
-  useEffect(() => {
-    const sound = new Howl({
-      src: ["/audio/sound-background.mp3"],
-      loop: true,
-      volume: 0.5,
-    });
+  // useEffect(() => {
+  //   const sound = new Howl({
+  //     src: ["/audio/sound-background.mp3"],
+  //     loop: true,
+  //     volume: 0.5,
+  //   });
 
-    sound.play();
+  //   sound.play();
 
-    return () => {
-      sound.stop();
-    };
-  }, []);
+  //   return () => {
+  //     sound.stop();
+  //   };
+  // }, []);
 
   return (
-    <>
+    <div className="relative overflow-hidden">
       {!openInvitation && (
         <CardInvitation setOpenInvitation={setOpenInvitation} />
       )}
       {openInvitation && <Invitation />}
-    </>
+    </div>
   );
 };
 

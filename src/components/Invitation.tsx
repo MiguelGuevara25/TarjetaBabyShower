@@ -5,16 +5,16 @@ import Wsp from "./icons/Wsp";
 
 const Invitation = () => {
   return (
-    <section className="w-11/12 mx-auto my-5 relative">
+    <section className="w-11/12 mx-auto my-5 overflow-hidden">
       <div className="space-y-6">
         <img
-          className="absolute w-2/5 opacity-40 -top-5 -right-5 -z-10"
+          className="absolute w-2/5 opacity-15 -top-10 -right-5 -z-10"
           src="/images/esquinaPanal.png"
           alt="Logo"
         />
 
         <img
-          className="absolute w-[30%] top-[8%] right-[1.5%]"
+          className="absolute w-[30%] top-[6.5%] right-[1.5%]"
           src="/images/Abejita.png"
           alt="Logo"
         />
@@ -44,13 +44,13 @@ const Invitation = () => {
         /> */}
 
         <img
-          className="absolute w-1/3 bottom-[9.5%] right-[12%]"
+          className="absolute w-1/5 bottom-[17%] right-[35%]"
           src="/images/Abejita.png"
           alt="Logo"
         />
 
         <img
-          className="absolute w-[45%] rotate-180 opacity-40 -bottom-11 -left-5 -z-10"
+          className="absolute w-[45%] rotate-180 opacity-15 -bottom-11 -left-5 -z-10"
           src="/images/esquinaPanal.png"
           alt="Logo"
         />
@@ -84,21 +84,21 @@ const Invitation = () => {
         </p>
 
         <p
-          className="grid grid-cols-2 text-primary text-5xl"
+          className="grid grid-cols-2 text-primary text-5xl mt-10"
           style={{ fontFamily: "MiFuente" }}
         >
-          <span className="text-right">Gael</span>
+          <span className="text-right -mr-3">Gael</span>
           <span></span>
           <span></span>
-          <span>Adriel</span>
+          <span className="-ml-3">Adriel</span>
         </p>
 
-        <p className="uppercase text__invitation text-secondary z-10">
+        <p className="uppercase text__invitation text-secondary z-10 mt-14">
           Mis papis
         </p>
 
         <p
-          className="text-primary text-center text-4xl"
+          className="text-primary text-center text-4xl -mt-4"
           style={{ fontFamily: "MiFuente" }}
         >
           Mario y Gelen
@@ -134,10 +134,10 @@ const Invitation = () => {
           </p>
         </div>
 
-        <div className="flex">
+        <div className="flex mt-14">
           <div className="flex flex-col gap-2 basis-1/2">
             <img src="/images/TiggerInicio.png" alt="Baby Shower" />
-            <div className="flex flex-col items-center gap-1">
+            <div className="flex flex-col items-center gap-1 mt-6">
               <p
                 className="text-primary text-xl"
                 style={{ fontFamily: "MiFuente" }}
@@ -158,7 +158,7 @@ const Invitation = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-10 basis-1/2">
+          <div className="flex flex-col gap-10 basis-1/2 mt-10">
             <div className="text-center space-y-2">
               <p
                 className="text-primary text-xl"
@@ -186,7 +186,7 @@ const Invitation = () => {
 
           <div className="basis-1/2 flex flex-col gap-3 items-center justify-center">
             <a
-              href="https://wa.me/51923750803?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20su%20Baby%20Shower.%20Nos%20vemos%20el%2031%20de%20Agosto.%20%F0%9F%A7%B8%F0%9F%8D%AF%F0%9F%92%99"
+              href="https://wa.me/?text=%C2%A1%C2%A1Holaaaa!!%20%F0%9F%92%BC%F0%9F%99%86%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%99%86%E2%80%8D%E2%99%80%EF%B8%8F%0AAn%C3%B3tame%20para%20el%20baby%20shower%20de%20Gael%20Adriel.%20%F0%9F%92%AB%0A%C2%A1Ni%20loco%20me%20pierdo%20la%20fiesta%20del%20a%C3%B1o...%20y%20eso%20que%20el%20cumplea%C3%B1ero%20todav%C3%ADa%20ni%20nace!%20%F0%9F%98%89%E2%9C%A8"
               target="_blank"
               className="bg-primary text-white rounded-full flex items-center py-1.5 px-4 w-max gap-2 cursor-pointer uppercase text-sm font-semibold text-center"
             >
@@ -198,6 +198,10 @@ const Invitation = () => {
               </span>
             </a>
 
+            <p className="text-secondary uppercase text-center text-pretty -mb-4">
+              Sin niños
+            </p>
+
             <p
               className="text-primary text-xl"
               style={{ fontFamily: "MiFuente" }}
@@ -206,6 +210,13 @@ const Invitation = () => {
             </p>
           </div>
         </div>
+
+        <hr className="text-secondary" />
+
+        <p className="text-secondary uppercase text-center text-pretty">
+          No vengas con las manos vacías, trae tu mejor sonrisa y muchas ganas
+          de celebrar.
+        </p>
       </div>
     </section>
   );
