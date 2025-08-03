@@ -106,7 +106,7 @@ const Invitation = () => {
 
         <p className="uppercase text__invitation text-secondary">
           Están organizando una fiestota para celebrar que muy pronto llegaré, y
-          tú eres parte de la lista VIP
+          tú eres parte de la lista VIP.
         </p>
 
         <p className="uppercase text__invitation text-secondary">
@@ -134,7 +134,7 @@ const Invitation = () => {
           </p>
         </div>
 
-        <div className="flex mt-14">
+        <div className="flex -mt-6">
           <div className="flex flex-col gap-2 basis-1/2">
             <img src="/images/TiggerInicio.png" alt="Baby Shower" />
             <div className="flex flex-col items-center gap-1 mt-6">
@@ -186,7 +186,7 @@ const Invitation = () => {
 
           <div className="basis-1/2 flex flex-col gap-3 items-center justify-center">
             <a
-              href="https://wa.me/?text=%C2%A1%C2%A1Holaaaa!!%20%F0%9F%92%BC%F0%9F%99%86%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%99%86%E2%80%8D%E2%99%80%EF%B8%8F%0AAn%C3%B3tame%20para%20el%20baby%20shower%20de%20Gael%20Adriel.%20%F0%9F%92%AB%0A%C2%A1Ni%20loco%20me%20pierdo%20la%20fiesta%20del%20a%C3%B1o...%20y%20eso%20que%20el%20cumplea%C3%B1ero%20todav%C3%ADa%20ni%20nace!%20%F0%9F%98%89%E2%9C%A8"
+              href="https://wa.me/51923750803?text=%C2%A1%C2%A1Holaaaa!!%20%F0%9F%92%BC%F0%9F%99%86%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%99%86%E2%80%8D%E2%99%80%EF%B8%8F%0AAn%C3%B3tame%20para%20el%20baby%20shower%20de%20Gael%20Adriel.%20%F0%9F%92%AB%0A%C2%A1Ni%20loco%20me%20pierdo%20la%20fiesta%20del%20a%C3%B1o...%20y%20eso%20que%20el%20cumplea%C3%B1ero%20todav%C3%ADa%20ni%20nace!%20%F0%9F%98%89%E2%9C%A8"
               target="_blank"
               className="bg-primary text-white rounded-full flex items-center py-1.5 px-4 w-max gap-2 cursor-pointer uppercase text-sm font-semibold text-center"
             >
@@ -198,8 +198,8 @@ const Invitation = () => {
               </span>
             </a>
 
-            <p className="text-secondary uppercase text-center text-pretty -mb-4">
-              Sin niños
+            <p className="text-secondary uppercase text-center text-pretty -mb-3 font-semibold">
+              No niños
             </p>
 
             <p
@@ -211,11 +211,11 @@ const Invitation = () => {
           </div>
         </div>
 
-        <hr className="text-secondary" />
+        <hr className="text-secondary -mt-3" />
 
         <p className="text-secondary uppercase text-center text-pretty">
-          No vengas con las manos vacías, trae tu mejor sonrisa y muchas ganas
-          de celebrar.
+          No vengas con las manos vacías, <strong>trae tu mejor sonrisa</strong>{" "}
+          y muchas ganas de celebrar.
         </p>
       </div>
     </section>
