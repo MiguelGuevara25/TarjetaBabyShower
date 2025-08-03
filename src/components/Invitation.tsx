@@ -8,27 +8,28 @@ const Invitation = () => {
     <section className="w-11/12 mx-auto my-5 relative">
       <div className="space-y-6">
         <img
-          className="absolute w-[30%] top-[4%] right-[1.5%]"
-          src="/images/Abejita.png"
-          alt="Logo"
-        />
-        <img
-          className="absolute w-20 top-[29%] left-[1.5%]"
-          src="/images/Abejita2.png"
+          className="absolute w-2/5 opacity-40 -top-5 -right-5 -z-10"
+          src="/images/esquinaPanal.png"
           alt="Logo"
         />
 
         <img
+          className="absolute w-[30%] top-[8%] right-[1.5%]"
+          src="/images/Abejita.png"
+          alt="Logo"
+        />
+
+        <img
+          className="absolute w-[30%] top-[27%] -left-5 -z-10"
+          src="/images/panalArbol.png"
+          alt="Logo"
+        />
+
+        {/* <img
           className="absolute w-8 top-[65%] left-[48%]"
           src="/images/AbejitaParada.png"
           alt="Logo"
-        />
-
-        <img
-          className="absolute w-20 bottom-[12%] right-[12%]"
-          src="/images/Abejita.png"
-          alt="Logo"
-        />
+        /> */}
 
         <img
           className="absolute w-2/5 top-[25%] -right-[20%]"
@@ -36,15 +37,32 @@ const Invitation = () => {
           alt="Logo"
         />
 
-        <img
+        {/* <img
           className="absolute w-22/100 bottom-[11%] right-[35%]"
           src="/images/panal.png"
           alt="Logo"
+        /> */}
+
+        <img
+          className="absolute w-1/3 bottom-[9.5%] right-[12%]"
+          src="/images/Abejita.png"
+          alt="Logo"
         />
 
-        <p className="uppercase w-60 text-center mx-auto text-secondary font-semibold">
-          ¡La dulce espera está por terminar!
+        <img
+          className="absolute w-[45%] rotate-180 opacity-40 -bottom-11 -left-5 -z-10"
+          src="/images/esquinaPanal.png"
+          alt="Logo"
+        />
+
+        <p className="uppercase text-center mx-auto text-secondary text-pretty">
+          Aún estoy en la pancita, pero ya quiero conocerte.{" "}
+          <span className="font-semibold">
+            ¡Te invito a mi primer gran fiesta!
+          </span>
         </p>
+
+        <hr className="text-secondary" />
 
         <div className="flex items-center justify-between">
           <div className="basis-1/2">
@@ -55,29 +73,44 @@ const Invitation = () => {
             className="text-5xl text-left flex flex-col gap-1 text-primary basis-1/2"
             style={{ fontFamily: "MiFuente" }}
           >
-            <span className="text-2xl">My</span>
+            <span className="text-3xl">My</span>
             <span>Baby Shower</span>
           </h2>
         </div>
 
         <p className="uppercase text__invitation text-pretty text-secondary">
-          Un nuevo integrante está por llegar a esta familia con amor e ilusión.
+          Soy un pequeño milagro que crece día a día y me emociona compartir
+          este momento contigo.
         </p>
 
         <p
-          className="text__invitation text-primary text-4xl"
+          className="grid grid-cols-2 text-primary text-5xl"
           style={{ fontFamily: "MiFuente" }}
         >
-          Gael Adriel
+          <span className="text-right">Gael</span>
+          <span></span>
+          <span></span>
+          <span>Adriel</span>
+        </p>
+
+        <p className="uppercase text__invitation text-secondary z-10">
+          Mis papis
+        </p>
+
+        <p
+          className="text-primary text-center text-4xl"
+          style={{ fontFamily: "MiFuente" }}
+        >
+          Mario y Gelen
         </p>
 
         <p className="uppercase text__invitation text-secondary">
-          Mis papis Mario y Gelen te invitan a celebrar con nosotros este día
-          tan especial por mi pronta llegada.
+          Están organizando una fiestota para celebrar que muy pronto llegaré, y
+          tú eres parte de la lista VIP
         </p>
 
         <p className="uppercase text__invitation text-secondary">
-          Ha realizarse el:
+          Ven a compartir con nosotros este:
         </p>
 
         <div className="flex justify-center text-secondary items-center mb-10">
