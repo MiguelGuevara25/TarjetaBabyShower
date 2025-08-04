@@ -174,7 +174,9 @@ const Invitation = () => {
 
           <div className="basis-1/2 flex flex-col gap-3 items-center justify-center">
             <a
-              href="https://wa.me/51923750803?text=%C2%A1%C2%A1Holaaaa!!%20%F0%9F%92%BC%F0%9F%99%86%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%99%86%E2%80%8D%E2%99%80%EF%B8%8F%0AAn%C3%B3tame%20para%20el%20baby%20shower%20de%20Gael%20Adriel.%20%F0%9F%92%AB%0A%C2%A1Ni%20loco%20me%20pierdo%20la%20fiesta%20del%20a%C3%B1o...%20y%20eso%20que%20el%20cumplea%C3%B1ero%20todav%C3%ADa%20ni%20nace!%20%F0%9F%98%89%E2%9C%A8"
+              href="https://wa.me/51923750803?text=%C2%A1%C2%A1Holaaaa!!%20🍼🙆‍♂️🙆‍♀️%0AAn%C3%B3tame%20para%20el%20Baby%20Shower%20de%20Gael%20Adriel.%20💫%0A%C2%A1Ni%20loco%20me%20pierdo%20la%20fiesta%20del%20a%C3%B1o...%20y%20eso%20que%20el%20cumplea%C3%B1ero%20todav%C3%ADa%20ni%20nace!%20😉✨"
+
+              
               target="_blank"
               className="bg-primary text-white rounded-full flex items-center py-1.5 px-4 w-max gap-2 cursor-pointer uppercase text-sm font-semibold text-center"
             >
