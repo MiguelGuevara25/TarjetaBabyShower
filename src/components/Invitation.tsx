@@ -25,23 +25,11 @@ const Invitation = () => {
           alt="Logo"
         />
 
-        {/* <img
-          className="absolute w-8 top-[65%] left-[48%]"
-          src="/images/AbejitaParada.png"
-          alt="Logo"
-        /> */}
-
         <img
           className="absolute w-2/5 top-[25%] -right-[20%]"
           src="/images/panal.png"
           alt="Logo"
         />
-
-        {/* <img
-          className="absolute w-22/100 bottom-[11%] right-[35%]"
-          src="/images/panal.png"
-          alt="Logo"
-        /> */}
 
         <img
           className="absolute w-1/5 bottom-[17%] right-[35%]"
@@ -197,10 +185,6 @@ const Invitation = () => {
                 Asistencia
               </span>
             </a>
-
-            <p className="text-secondary uppercase text-center text-pretty -mb-3 font-semibold">
-              No niños
-            </p>
 
             <p
               className="text-primary text-xl"
