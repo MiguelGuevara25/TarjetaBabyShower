@@ -5,7 +5,7 @@ import Wsp from "./icons/Wsp";
 
 const Invitation = () => {
   return (
-    <section className="w-11/12 mx-auto my-5 overflow-hidden">
+    <section className="w-11/12 mx-auto my-5 overflow-hidden bg-animated">
       <div className="space-y-6">
         <img
           className="absolute w-2/5 opacity-15 -top-10 -right-5 -z-10"
@@ -43,7 +43,7 @@ const Invitation = () => {
           alt="Logo"
         />
 
-        <p className="uppercase text-center mx-auto text-secondary text-pretty">
+        <p className="uppercase text-center mx-auto text-secondary text-pretty text-up">
           Aún estoy en la pancita, pero ya quiero conocerte.{" "}
           <span className="font-semibold">
             ¡Te invito a mi primer gran fiesta!
@@ -52,7 +52,7 @@ const Invitation = () => {
 
         <hr className="text-secondary" />
 
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between text-up">
           <div className="basis-1/2">
             <img src="/images/WinniePoohInicio.png" alt="Baby Shower" />
           </div>
@@ -66,7 +66,7 @@ const Invitation = () => {
           </h2>
         </div>
 
-        <p className="uppercase text__invitation text-pretty text-secondary">
+        <p className="uppercase text__invitation text-pretty text-secondary text-up">
           Soy un pequeño milagro que crece día a día y me emociona compartir
           este momento contigo.
         </p>
@@ -75,10 +75,10 @@ const Invitation = () => {
           className="grid grid-cols-2 text-primary text-5xl mt-10"
           style={{ fontFamily: "MiFuente" }}
         >
-          <span className="text-right -mr-3">Gael</span>
+          <span className="text-right -mr-3 slow-left">Gael</span>
           <span></span>
           <span></span>
-          <span className="-ml-3">Adriel</span>
+          <span className="-ml-3 slow-right">Adriel</span>
         </p>
 
         <p className="uppercase text__invitation text-secondary z-10 mt-14">
@@ -175,8 +175,6 @@ const Invitation = () => {
           <div className="basis-1/2 flex flex-col gap-3 items-center justify-center">
             <a
               href="https://wa.me/51923750803?text=%C2%A1%C2%A1Holaaaa!!%20🍼🙆‍♂️🙆‍♀️%0AAn%C3%B3tame%20para%20el%20Baby%20Shower%20de%20Gael%20Adriel.%20💫%0A%C2%A1Ni%20loco%20me%20pierdo%20la%20fiesta%20del%20a%C3%B1o...%20y%20eso%20que%20el%20cumplea%C3%B1ero%20todav%C3%ADa%20ni%20nace!%20😉✨"
-
-              
               target="_blank"
               className="bg-primary text-white rounded-full flex items-center py-1.5 px-4 w-max gap-2 cursor-pointer uppercase text-sm font-semibold text-center"
             >
