@@ -1,24 +1,24 @@
 import { useEffect, useState } from "react";
-import CardInvitation from "./components/CardInvitation";
-import Invitation from "./components/Invitation";
+import CardInvitation from "./views/CardInvitation";
+import Invitation from "./views/Invitation";
 import { Howl } from "howler";
 
 const App = () => {
   const [openInvitation, setOpenInvitation] = useState(false);
 
-  useEffect(() => {
-    const sound = new Howl({
-      src: ["/audio/sound-background.mp3"],
-      loop: true,
-      volume: 0.5,
-    });
+  // useEffect(() => {
+  //   const sound = new Howl({
+  //     src: ["/audio/sound-background.mp3"],
+  //     loop: true,
+  //     volume: 0.5,
+  //   });
 
-    sound.play();
+  //   sound.play();
 
-    return () => {
-      sound.stop();
-    };
-  }, []);
+  //   return () => {
+  //     sound.stop();
+  //   };
+  // }, []);
 
   return (
     <div className="relative overflow-hidden">
