@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import CardInvitation from "./components/CardInvitation";
-import Invitation from "./components/Invitation";
+import CardInvitation from "./views/CardInvitation";
+import Invitation from "./views/Invitation";
 import { Howl } from "howler";
 
 const App = () => {
