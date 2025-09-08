@@ -9,7 +9,7 @@ const CountdownInfo = () => {
         </p>
         <div className="w-max">
           <FlipClockCountdown
-            to={new Date("2025-09-14T16:30:00").getTime()}
+            to={new Date("2025-09-21T16:30:00").getTime()}
             labels={["Días", "Horas", "Minutos", "Segundos"]}
             showSeparators={false}
             className="flip-clock"

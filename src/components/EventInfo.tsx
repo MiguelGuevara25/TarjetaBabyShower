@@ -12,7 +12,7 @@ const EventInfo = () => {
       <hr className="w-10 rotate-90 text-primary" />
 
       <div className="text-primary text-5xl font-bold flex flex-col items-center">
-        <span>14</span>
+        <span>21</span>
         <span className="text-secondary uppercase text-base font-normal">
           Septiembre
         </span>
